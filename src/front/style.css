@@ -1,0 +1,117 @@
+body {
+    background-color: #4ef542;
+}
+
+.row {
+    margin: 0 auto;
+    width: 280px;
+    clear: both;
+    text-align: center;
+    font-family: 'Exo';
+}
+
+.digit,
+.dig {
+    float: left;
+    padding: 10px 30px;
+    width: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sub {
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.container {
+    background-color: white;
+    width: 320px;
+    padding: 20px;
+    margin: 5% auto;
+    height: 420px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#output {
+    font-family: "Exo";
+    font-size: 2rem;
+    height: 60px;
+    font-weight: bold;
+    color: #82d219;
+}
+
+#call {
+    display: inline-block;
+    background-color: #66bb6a;
+    padding: 4px 30px;
+    margin: 10px;
+    color: white;
+    border-radius: 4px;
+    float: left;
+    cursor: pointer;
+}
+
+.botrow {
+    margin: 0 auto;
+    width: 280px;
+    clear: both;
+    text-align: center;
+    font-family: 'Exo';
+}
+
+.digit:active,
+.dig:active {
+    background-color: #e6e6e6;
+}
+
+#call:hover {
+    background-color: #81c784;
+}
+
+.dig {
+    float: left;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

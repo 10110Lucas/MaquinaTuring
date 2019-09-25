@@ -16,7 +16,9 @@ public class TelefoniaFranca {
 		System.out.println("Entre com a palavra: ");
 		palavra = entrada.nextLine();
 		maq.Iniciar(palavra);
-	}	
+	}
+	
+	
 	public void Iniciar(String setenca){
 		cont = 0;
 		fita = setenca.toCharArray();
